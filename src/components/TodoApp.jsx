@@ -1,11 +1,10 @@
-import Header from '../components/Header';
-import TodosLogic from '../components/TodosLogic'
-const TodoApp = () => {
-    return (
-        <>
-           <Header />
-           <TodosLogic />
-        </>
-    );
-};
+import Header from './Header';
+import TodosLogic from './TodosLogic';
+
+const TodoApp = () => (
+  <>
+    <Header />
+    <TodosLogic />
+  </>
+);
 export default TodoApp;
